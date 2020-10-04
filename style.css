@@ -3,3 +3,85 @@
    padding: 0;
    box-sizing: border-box;
 }
+
+main {
+   font-family: 'Heebo', sans-serif;
+}
+
+.landing {
+   min-height: 100vh;
+   background: url('./hero.jpg');
+   background-size: cover;
+   padding: 0 5rem;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   min-height: 10vh;
+}
+
+.nav-links {
+   display: flex;
+   list-style: none;
+}
+
+.nav-links li {
+   padding-left: 10rem;
+   font-size: 1.2rem;
+}
+
+#logo {
+   font-family: 'Lobster', cursive;
+   font-weight: lighter;
+   font-size: 2rem;
+}
+
+.big-text {
+   font-family: 'Lobster', cursive;
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%, -30%);
+   font-size: 5rem;
+   color: rgb(61, 61, 61);
+}
+
+.intro {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: black;
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+}
+
+.slider {
+   background: rgb(136, 142, 155);
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   transform: translateY(100%);
+}
+
+.intro-text {
+   color: rgb(233, 233, 233);
+   font-family: 'Heebo', sans-serif;
+   font-size: 3rem;
+}
+
+.hide {
+   background: black;
+   overflow: hidden;
+}
+
+.hide span {
+   display: inline-block;
+   transform: translateY(100%);
+}
